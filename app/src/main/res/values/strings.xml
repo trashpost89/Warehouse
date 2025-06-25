@@ -1,0 +1,85 @@
+<resources>
+    <!-- Основные строки приложения -->
+    <string name="app_name">Warehouse Manager</string>
+    <string name="navigation_drawer_open">Открыть меню навигации</string>
+    <string name="navigation_drawer_close">Закрыть меню навигации</string>
+
+    <!-- Инвентарь -->
+    <string name="inventory_title">Основной склад</string>
+    <string name="search_hint">Поиск товара...</string>
+    <string name="search">Поиск</string>
+    <string name="inventory_empty">Нет товаров на складе</string>
+
+    <!-- Заказы -->
+    <string name="order_title">Заказы</string>
+    <string name="add_order">Добавить заказ</string>
+    <string name="add_order_item">Добавить позицию заказа</string>
+    <string name="order_empty">Нет активных заказов</string>
+    <string name="order_saved">Заказ сохранен</string>
+
+    <!-- Поступления -->
+    <string name="receipt_title">Поступления</string>
+    <string name="add_receipt">Добавить поступление</string>
+    <string name="add_receipt_item">Добавить позицию поступления</string>
+    <string name="receipt_empty">Нет записей о поступлениях</string>
+    <string name="receipt_saved">Поступление сохранено</string>
+
+    <!-- Отгрузки -->
+    <string name="shipment_title">Отгрузки</string>
+    <string name="add_shipment">Добавить отгрузку</string>
+    <string name="shipment_empty">Нет записей об отгрузках</string>
+    <string name="shipment_saved">Отгрузка сохранена</string>
+
+    <!-- Общие -->
+    <string name="name">Наименование</string>
+    <string name="box">Коробка</string>
+    <string name="quantity">Количество</string>
+    <string name="date">Дата</string>
+    <string name="no_product">Нет товара</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="add">Добавить</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+
+    <!-- CSV -->
+    <string name="import_csv">Импорт CSV</string>
+    <string name="export_csv">Экспорт CSV</string>
+    <string name="import_success">Данные успешно импортированы</string>
+    <string name="export_success">Данные успешно экспортированы</string>
+    <string name="import_failed">Ошибка импорта</string>
+    <string name="export_failed">Ошибка экспорта</string>
+
+    <!-- Диалоги -->
+    <string name="confirm_delete">Удалить эту запись?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <!-- Ошибки -->
+    <string name="error_quantity">Некорректное количество</string>
+    <string name="error_name">Введите наименование</string>
+    <string name="error_box">Укажите коробку</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="search_height_title">Высота строки поиска</string>
+    <string name="search_height_summary">Установите высоту строки поиска в пикселях</string>
+
+    <!-- Поведение AppBar -->
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+
+    <!-- Пустые состояния -->
+    <string name="empty_state_title">Нет данных</string>
+    <string name="empty_state_subtitle">Нажмите кнопку добавить, чтобы создать новую запись</string>
+
+    <!-- Действия с товаром -->
+    <string name="product_added">Товар добавлен</string>
+    <string name="product_updated">Товар обновлен</string>
+    <string name="product_deleted">Товар удален</string>
+
+
+    <string name="import_export">Импорт/Экспорт</string>
+    <string name="export_csv_summary">Экспортировать данные в CSV</string>
+    <string name="import_csv_summary">Импортировать данные из CSV</string>
+
+</resources>

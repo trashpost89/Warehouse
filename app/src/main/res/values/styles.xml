@@ -1,0 +1,29 @@
+<resources>
+    <!-- Стиль для Toolbar -->
+    <style name="Widget.Warehouse.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:elevation">4dp</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Warehouse.Toolbar</item>
+    </style>
+
+    <style name="ThemeOverlay.Warehouse.Toolbar" parent="">
+        <item name="colorSurface">?attr/colorPrimary</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <!-- Стиль для кнопок -->
+    <style name="Widget.Warehouse.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <!-- Тема без ActionBar -->
+    <style name="Theme.Warehouse.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Стиль для текстовых полей -->
+    <style name="Widget.Warehouse.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">?attr/colorPrimary</item>
+        <item name="boxStrokeColor">?attr/colorPrimary</item>
+    </style>
+</resources>

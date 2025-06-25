@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_stock"
+            android:icon="@drawable/ic_inventory"
+            android:title="@string/inventory_title" />
+            
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_order"
+            android:title="@string/order_title" />
+            
+        <item
+            android:id="@+id/nav_receipt"
+            android:icon="@drawable/ic_receipt"
+            android:title="@string/receipt_title" />
+    </group>
+</menu>
